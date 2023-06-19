@@ -1,0 +1,58 @@
+
+.div11{
+    background-color: rgb(84, 84, 84);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%,rgba(204, 204, 204) 100%);
+
+}
+
+
+
+
+
+.tekst{
+    background-color: rgb(173, 167, 190,0.3);
+}
+ h1{
+     font-size: 70px;
+ }
+.kraj{
+    padding-bottom: 10%;
+    padding: 6%;
+    background: linear-gradient(180deg,rgba(204, 204, 204), rgba(0,0,0,1));
+}
+
+ .kontaktirajte{
+     background-image: url("../images/kontakt.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 400px;
+     border-radius: 0px 20px 20px 0px;
+ }
+ .kontaktirajte2{
+    background-image: url("../images/kontakt_levoo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+.dugme{
+    padding: 5%;
+    margin-right: auto;
+    border-radius: 20px 20px 30px 30px;
+    opacity: 0.2;
+    background-color: black;
+    color:rgb(189, 188, 188);
+    border: solid 2px black;
+}
+.dugme:hover{
+    opacity: 1;
+    background-color: rgb(136, 136, 136);
+    color: rgb(46, 46, 46);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+.dugme:active{
+   background-color: rgb(78, 29, 29);
+   transition: 2ms;
+}

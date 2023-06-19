@@ -1,0 +1,38 @@
+body{
+    font-family: Roboto;
+    background-color: rgb(204, 204, 204);
+}
+.meni {
+    background: black;
+}
+.senka{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: transparent;
+}
+.prva {
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%,rgba(204, 204, 204) 100%);
+    
+}
+.slika{
+    border: solid 2px black;
+}
+footer{
+    color: gray;
+    background: rgba(0,0,0,1);
+}
+.alert{
+    position: absolute;
+}
+.senka:hover{
+    background-color: rgb(71, 71, 71);
+    transition: 1s all;
+}
+
+span{
+    color: wheat;
+}
+.kraj{
+    padding-bottom: 10%;
+    padding: 6%;
+    background: linear-gradient(180deg,rgba(204, 204, 204), rgba(0,0,0,1));
+}

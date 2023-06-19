@@ -1,0 +1,69 @@
+input{
+    width: 100%;
+    height: 15%;
+    border:  groove whitesmoke 1px;
+    border-radius: 2em;
+   background: transparent;
+}
+input:focus{
+ background-color: rgba(88, 88, 88, 0.5);
+  outline: none;
+   opacity: 0.5;
+   border: groove ;
+   border-radius: 2em;
+    color: whitesmoke;
+}
+input:hover {
+    border: groove  #003f0b;
+    border-radius: 2em;
+    transition: all 200ms;
+}
+textarea:hover{
+    border: groove  #003f0b; 
+    border-radius: 2em;
+    transition: all 200ms;
+}
+
+
+textarea{
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    
+    color: whitesmoke;
+    border:  groove whitesmoke 1px;
+    border-radius: 2em;
+}
+textarea:focus{
+    background-color: rgba(88, 88, 88, 0.5);
+    outline: none;
+     opacity: 0.5;
+     border: groove ;
+     border-radius: 2em;
+      color: whitesmoke;
+}
+#forma .row{
+    background-color: rgba(29, 29, 29, 0.815);
+  outline: none;
+   opacity: 0.8;
+   border: groove  #003f0b;
+   border-radius: 2em;
+    
+}
+.btn {
+     border-radius: 2em;
+    background-color: transparent;
+    color: whitesmoke;
+    border:  groove whitesmoke 1px;
+    border-radius: 2em;
+
+}
+button:hover{
+    background-color: #003f0b;
+    transition: all 500ms;
+}
+button:focus{
+    opacity: 0;
+    transition: 1s;
+    opacity: 1;
+}
